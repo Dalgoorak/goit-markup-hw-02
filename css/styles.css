@@ -178,6 +178,7 @@ body {
     
     color: var(--title-text-color);
     font-family: inherit;
+    cursor: pointer;
 }
 
 .filter-button:hover,
