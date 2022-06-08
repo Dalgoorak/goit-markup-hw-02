@@ -175,7 +175,7 @@ body {
 /* Filter */
 
 .filter-button {
-    
+
     color: var(--title-text-color);
     font-family: inherit;
     cursor: pointer;
