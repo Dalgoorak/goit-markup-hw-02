@@ -4,7 +4,6 @@
 /* цвет фона #E5E5E5 */
 
 :root {
-    --bg-color: #E5E5E5;
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
@@ -14,17 +13,14 @@
 }
 
 body {
-    background-color:var(--bg-color);
+    background-color: #FFFFFF;
     color: var(--primary-text-color);
 
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 }
 
-/* header */
-.header {
-    background-color: var(--secondary-text-color);
-}
+
 
 /* logo */
 
@@ -133,6 +129,10 @@ body {
     background-color: var(--accent-bg-color);
 }
 
+.section-team .members {
+    background-color: var(--secondary-text-color);
+}
+
 .section-team .profession {
     color: var(--primary-text-color);
     font-size: 16px;
@@ -140,9 +140,6 @@ body {
     text-align: center;
 }
 
-.section-team .team {
-    background-color: var(--secondary-text-color);
-}
 
 /* Footer */
 
@@ -174,7 +171,7 @@ body {
 /* Filter */
 
 .filter-button {
-    background-color: var(--accent-bg-color);
+    
     color: var(--title-text-color);
     font-family: inherit;
 }
@@ -187,9 +184,7 @@ body {
 
 /* Portfolio */
 
-.section-main {
-    background-color: #EEEEEE;
-}
+
 
 .portfolio .title {
     color: var(--title-text-color);
