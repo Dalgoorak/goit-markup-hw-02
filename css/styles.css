@@ -166,7 +166,7 @@ body {
 }
 
 .address .link {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--address-color);
     font-style: normal;
     line-height: 1.71;
 }
